@@ -30,7 +30,7 @@ To utilize the bot, users simply invoke the appropriate slash command (`/send_me
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-name.git
+   git clone https://github.com/kasem545/discord-media.git
    ```
 
 2. Install dependencies:
@@ -56,5 +56,5 @@ This Discord bot simplifies the process of sharing media files within Discord se
 
 Feel free to customize and expand upon this description based on your specific bot functionalities and use cases!
 
-![Video Demo image-upload](image-upload.mp4)
-![Video Demo video-upload](video-upload.mp4)
+![Video Demo image-upload](https://drive.google.com/file/d/18rrAXDyz52J9G9WAqHp3VxYej9Y-79tl/view?usp=drive_link)
+![Video Demo video-upload](https://drive.google.com/file/d/1JjOqxAomvfVSV2Q78GgYdFvqv3EQRtsA/view?usp=drive_link)
