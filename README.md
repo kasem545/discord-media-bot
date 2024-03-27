@@ -45,7 +45,7 @@ To utilize the bot, users simply invoke the appropriate slash command (`/send_me
 
 4. Run the bot:
    ```bash
-   python bot.py
+   python Media-uploader.py
    ```
 
 ### Overall
