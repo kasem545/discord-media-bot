@@ -16,7 +16,17 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
 async def on_ready():
+    print("""
+                      ▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▌
+                   ▄▄██▌█░░░░░░░░░░░░▐
+                ▄▄▄▌▐██▌█░░░░░░░░░░░░▐
+                ███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▌
+                ▀❍▀▀▀▀▀▀▀❍❍▀▀▀▀▀▀❍❍▀
+                  
+                  Credit to Kasem545
+""")
     print(f'{bot.user.name} has connected to Discord!')
+    
     
 @bot.slash_command(name="send_media", description="Send media to the specified channel.")
     
