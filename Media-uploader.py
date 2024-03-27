@@ -75,14 +75,20 @@ async def options(ctx):
     options_text = "Usage:\n1. /send_media [media_type] [channel_name] - Send media to the specified channel [attachment] - the media you want to upload\n2. /Usage - Show Usage."
     await ctx.send(options_text)
 
+TARGET_CHANNEL_ID =  # ENTER THE CHANNEL_ID OF MAIN CHANNEL OF THE BOT
+
 @bot.event
 async def on_message(message):
-    # Check if the message is from a bot or if it starts with '/'
-    if message.author.bot or message.content.startswith('/send_media') or message.content.startswith('/usage') :
-        await bot.process_commands(message)  # Process commands normally
-    else:
-        # Delete the message if it doesn't start with '/'
+    # Check if the message is from the targeted channel and if it doesn't start with '/send_media' or '/usage'
+    # Also, ensure the message is not sent by the bot itself
+    if (message.channel.id == TARGET_CHANNEL_ID and 
+        not message.content.startswith(('/send_media', '/usage')) and
+        message.author != bot.user):
         await message.delete()
+
+    # Process commands normally
+    await bot.process_commands(message)
+
 
 # Handling errors
 @bot.event
