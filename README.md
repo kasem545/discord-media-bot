@@ -56,5 +56,8 @@ This Discord bot simplifies the process of sharing media files within Discord se
 
 Feel free to customize and expand upon this description based on your specific bot functionalities and use cases!
 
-![Video Demo image-upload](https://drive.google.com/file/d/18rrAXDyz52J9G9WAqHp3VxYej9Y-79tl/view?usp=drive_link)
-![Video Demo video-upload](https://drive.google.com/file/d/1JjOqxAomvfVSV2Q78GgYdFvqv3EQRtsA/view?usp=drive_link)
+
+https://github.com/kasem545/discord-media/assets/14138005/fb5d272c-004e-4408-8717-16b9f5763240
+
+
+https://github.com/kasem545/discord-media/assets/14138005/631992de-f51f-4c7a-8aba-653aba6a64cb
