@@ -4,7 +4,7 @@ need help to setup feel free to contact me on discord @kasemsh
 
 **Discord Media Bot**
 
-This Discord bot streamlines the sharing of media files within Discord servers, providing users with a straightforward method to upload images or videos to designated channels using simple slash commands. It grants users flexibility by enabling them to specify the type of media (image or video) they are uploading and the target channel for delivery. If no channel is specified, the bot defaults to a predefined channel.
+This Discord bot streamlines the sharing of media files within Discord servers, providing users with a straightforward method to upload images or videos to designated channels using simple slash commands. It grants users flexibility by enabling them to specify the type of media (image or video) they are uploading and the target channel for delivery.
 
 ### Features
 
