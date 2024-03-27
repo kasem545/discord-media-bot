@@ -54,8 +54,6 @@ To utilize the bot, users simply invoke the appropriate slash command (`/send_me
 
 This Discord bot simplifies the process of sharing media files within Discord servers, promoting collaboration and communication among users. With its user-friendly interface and robust functionality, it serves as a valuable asset for communities seeking to exchange media content seamlessly.
 
-**Note:** Add local videos to the appropriate directories in the repository before running the bot.
-
 Feel free to customize and expand upon this description based on your specific bot functionalities and use cases!
 
 
