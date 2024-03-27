@@ -26,7 +26,7 @@ This bot is implemented in Python using the `nextcord` library, a modern Python 
 
 ### Usage
 
-To utilize the bot, users simply invoke the appropriate slash command (`/send_media`), specifying the desired media type (image or video) and, optionally, the target channel name. They can attach the media file to the command, and the bot will handle the rest, uploading the media to the specified channel or the default channel.
+To utilize the bot, users simply invoke the appropriate slash command (`/send_media`), specifying the desired media type (image or video) and, optionally, the target channel name. They can attach the media file to the command, and the bot will handle the rest, uploading the media to the specified channel.
 
 ### Installation
 
