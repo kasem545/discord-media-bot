@@ -1,8 +1,10 @@
 ### Description
 
+need help to setup feel free to contact me on discord @kasemsh
+
 **Discord Media Bot**
 
-This Discord bot streamlines the sharing of media files within Discord servers, providing users with a straightforward method to upload images or videos to designated channels using simple slash commands. It grants users flexibility by enabling them to specify the type of media (image or video) they are uploading and the target channel for delivery. If no channel is specified, the bot defaults to a predefined channel.
+This Discord bot streamlines the sharing of media files within Discord servers, providing users with a straightforward method to upload images or videos to designated channels using simple slash commands. It grants users flexibility by enabling them to specify the type of media (image or video) they are uploading and the target channel for delivery.
 
 ### Features
 
@@ -24,7 +26,7 @@ This bot is implemented in Python using the `nextcord` library, a modern Python 
 
 ### Usage
 
-To utilize the bot, users simply invoke the appropriate slash command (`/send_media`), specifying the desired media type (image or video) and, optionally, the target channel name. They can attach the media file to the command, and the bot will handle the rest, uploading the media to the specified channel or the default channel.
+To utilize the bot, users simply invoke the appropriate slash command (`/send_media`), specifying the desired media type (image or video) and, optionally, the target channel name. They can attach the media file to the command, and the bot will handle the rest, uploading the media to the specified channel.
 
 ### Installation
 
@@ -51,8 +53,6 @@ To utilize the bot, users simply invoke the appropriate slash command (`/send_me
 ### Overall
 
 This Discord bot simplifies the process of sharing media files within Discord servers, promoting collaboration and communication among users. With its user-friendly interface and robust functionality, it serves as a valuable asset for communities seeking to exchange media content seamlessly.
-
-**Note:** Add local videos to the appropriate directories in the repository before running the bot.
 
 Feel free to customize and expand upon this description based on your specific bot functionalities and use cases!
 
