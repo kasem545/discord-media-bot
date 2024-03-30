@@ -73,7 +73,7 @@ async def process_send_media(ctx, media_type, channel_name, attachment):
         pass
         
     # Send the media to the specified channel
-    await channel.send(media_url)
+    await channel.send(f"{ctx.user.mention} ({ctx.user.name}) shared this: {media_url}")
     # Wait for 5 seconds
     await asyncio.sleep(5)
     # Send confirmation message
