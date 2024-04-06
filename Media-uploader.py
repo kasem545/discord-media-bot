@@ -31,15 +31,15 @@ async def on_ready():
 @bot.slash_command(name="send_media", description="Send media to the specified channel.")
     
     # set choices for channel_name of your server channel for media only, disable send messages permissions of those channels
-async def send_media(ctx, media_type: str = nextcord.SlashOption(choices={"image", "video"}), channel_name: str = nextcord.SlashOption(choices={"random-1", "random-2", "random-3"}), attachment: nextcord.Attachment = None):
+async def send_media(ctx, media_type: str = nextcord.SlashOption(choices={"image", "video"}), comment: str = nextcord.SlashOption(description="Add your comment") ,channel_name: str = nextcord.SlashOption(choices={"random-1", "random-2", "random-3"}), attachment: nextcord.Attachment = None):
     # Acknowledge the interaction
     await ctx.send("Processing your request...")
 
     # Process the command asynchronously
-    await asyncio.create_task(process_send_media(ctx, media_type, channel_name, attachment))
+    await asyncio.create_task(process_send_media(ctx, media_type, comment ,channel_name, attachment))
 
 # Asynchronous function to process the send_media command
-async def process_send_media(ctx, media_type, channel_name, attachment):
+async def process_send_media(ctx, media_type, comment, channel_name, attachment):
     # Check if a media file is attached
     if attachment is None:
         await ctx.send("Please attach a media file.")
@@ -73,7 +73,7 @@ async def process_send_media(ctx, media_type, channel_name, attachment):
         pass
         
     # Send the media to the specified channel
-    await channel.send(f"{ctx.user.mention} ({ctx.user.name}) shared this: {media_url}")
+    await channel.send(f"{ctx.user.mention} {media_url}\n {comment}")
     # Wait for 5 seconds
     await asyncio.sleep(5)
     # Send confirmation message
@@ -85,7 +85,7 @@ async def options(ctx):
     options_text = "Usage:\n1. /send_media [media_type] [channel_name] - Send media to the specified channel [attachment] - the media you want to upload\n2. /Usage - Show Usage."
     await ctx.send(options_text)
 
-TARGET_CHANNEL_ID =  # ENTER THE CHANNEL_ID OF MAIN CHANNEL OF THE BOT
+TARGET_CHANNEL_ID = 000000000000000000 #ENTER THE CHANNEL_ID OF MAIN CHANNEL OF THE BOT
 
 @bot.event
 async def on_message(message):
