@@ -48,7 +48,7 @@ To utilize the bot, users simply invoke the appropriate slash command (`/send_me
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the root directory and add your Discord bot token:
+3. add your Discord bot token in `.env` file :
    ```
    TOKEN=your_bot_token_here
    ```
