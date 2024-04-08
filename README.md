@@ -20,6 +20,12 @@ This Discord bot streamlines the sharing of media files within Discord servers, 
   
 - **Reliability:** The bot is engineered to be reliable and responsive, optimized to deliver timely responses to user interactions.
 
+
+### New Added Features
+
+- **Comment:** abilty to add a comment on upload 
+
+
 ### Implementation
 
 This bot is implemented in Python using the `nextcord` library, a modern Python library for interfacing with the Discord API. It utilizes the `nextcord.ext.commands` extension for defining slash commands and managing interactions. Sensitive information such as the bot token is securely accessed through environment variables stored in a `.env` file.
