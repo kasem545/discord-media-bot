@@ -23,7 +23,7 @@ This Discord bot streamlines the sharing of media files within Discord servers, 
 
 ### New Added Features
 
-- **Comment:** abilty to add a comment on upload 
+- **Comments:** ability to add a comment on upload
 
 https://github.com/kasem545/discord-media/assets/14138005/a46260e5-74f3-4935-9b5c-5769b505c15b
 
