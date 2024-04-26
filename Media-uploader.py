@@ -77,7 +77,7 @@ async def process_send_media(ctx, media_type, comment, channel_name, attachment)
     # Wait for 5 seconds
     await asyncio.sleep(5)
     # Send confirmation message
-    await ctx.send("Media sent successfully :)")
+    await ctx.send(f"{ctx.user.mention} Media sent successfully :)")
 
 @bot.slash_command(name="usage", description="Show usage .")
 async def options(ctx):
