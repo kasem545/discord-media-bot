@@ -30,8 +30,9 @@ async def on_ready():
     
 @bot.slash_command(name="send_media", description="Send media to the specified channel.")
     
-    # set choices for channel_name of your server channel for media only, disable send messages permissions of those channels
-async def send_media(ctx, media_type: str = nextcord.SlashOption(choices={"image", "video"}), comment: str = nextcord.SlashOption(description="Add your comment") ,channel_name: str = nextcord.SlashOption(choices={"random-1", "random-2", "random-3"}), attachment: nextcord.Attachment = None):
+    # set choices for channel_name of your server channel for media only, disable send messages permissions of those channels 
+
+async def send_media(ctx, media_type: str = nextcord.SlashOption(choices={"image", "video"}), channel_name: str = nextcord.SlashOption(choices={"random-1", "random-2", "random-3"}), attachment: nextcord.Attachment = None,  comment: str = nextcord.SlashOption(description="Add your comment", required=False)):
     # Acknowledge the interaction
     await ctx.send("Processing your request...")
 
