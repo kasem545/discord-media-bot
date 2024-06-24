@@ -1,0 +1,5 @@
+{
+  "bot_token": "your_bot_token_here",
+  "target_channel_id": 10000000000000000,
+  "channel_choices": ["CHANNEL-1", "CHANNEL-2", "CHANNEL-3"]
+}
