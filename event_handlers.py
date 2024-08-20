@@ -24,6 +24,6 @@ async def on_message(message):
 @bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, nextcord.ext.commands.errors.CommandNotFound):
-        await ctx.send("Invalid command. Type /options for available commands.")
+        await ctx.send("Invalid command. Type /options for available commands.", ephemeral=True)
     else:
         print(error)  # Print the error to console for debugging purposes
